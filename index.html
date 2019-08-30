@@ -24,6 +24,7 @@
   <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
   <link href="vendor/bootstrap/css/sticky-footer-navbar.css" rel="stylesheet">
   <link href="vendor/bootstrap/css/image-crop.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/carousel.css" rel="stylesheet">
 
 </head>
 
@@ -62,6 +63,51 @@
         <li class="breadcrumb-item"><a href="#workshops">Workshops</a></li>
       </ol>
       </nav>
+
+      <div id="gallery">
+      <h6><span class='ec-framed-picture'></span> Gallery</h6>
+      <!-- Top content -->
+<div class="top-content mt-3 mb-3">
+    <div class="container-fluid">
+        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                    <img src="assets/img/backgrounds/1.jpg" class="img-fluid mx-auto d-block" alt="img1">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="assets/img/backgrounds/2.jpg" class="img-fluid mx-auto d-block" alt="img2">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="assets/img/backgrounds/3.jpg" class="img-fluid mx-auto d-block" alt="img3">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="assets/img/backgrounds/4.jpg" class="img-fluid mx-auto d-block" alt="img4">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="assets/img/backgrounds/5.jpg" class="img-fluid mx-auto d-block" alt="img5">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="assets/img/backgrounds/6.jpg" class="img-fluid mx-auto d-block" alt="img6">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="assets/img/backgrounds/7.jpg" class="img-fluid mx-auto d-block" alt="img7">
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="assets/img/backgrounds/8.jpg" class="img-fluid mx-auto d-block" alt="img8">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+  </div>
+</div>
         <div id="about">
         <h6><span class='ec-eyes'></span> About Me</h6>
         <p>My name is Farid Hasan, I'm freelance photographer based in Indonesia, was born and raised in Sragen on September 16, 1998, currently I'm studying at the University of Indonesia (S1 Industrial Engineering).
@@ -193,6 +239,7 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/bootstrap/js/modal.js"></script>
   <script src="vendor/bootstrap/js/typingeffect.js"></script>
+  <script src="vendor/bootstrap/js/carousel.js"></script>
 
   <!-- Modal -->
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
