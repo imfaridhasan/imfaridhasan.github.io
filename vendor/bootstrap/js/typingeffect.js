@@ -49,8 +49,8 @@ var TxtType = function(el, toRotate, period) {
             }
         }
         // INJECT CSS
-          var css = document.createElement("style");
-          css.type = "text/css";
-          css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #000}";
-          document.body.appendChild(css);
+        //  var css = document.createElement("style");
+        //  css.type = "text/css";
+        //  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #ff0000}";
+        //  document.body.appendChild(css);
     };
