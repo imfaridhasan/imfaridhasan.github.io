@@ -3,34 +3,50 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <base href="">
+    <base href="/blog">
     <title></title>
-    <link href="/atom.xml" rel="alternate" type="application/atom+xml">
-    <link href="/rss.xml" rel="alternate" type="application/rss+xml">
+    <link href="/blog/atom.xml" rel="alternate" type="application/atom+xml">
+    <link href="/blog/rss.xml" rel="alternate" type="application/rss+xml">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
-    <link rel="manifest" href="/img/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/blog/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/blog/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/blog/img/favicon-16x16.png">
+    <link rel="manifest" href="/blog/img/site.webmanifest">
 
     <!-- Bootstrap core CSS -->
-    <link href="/vendor/bootstrap/css/bootstrap.css" rel="stylesheet" media="(prefers-color-scheme: light)" />
-    <link href="/vendor/bootstrap/css/bootstrap-dark.css" rel="stylesheet" media="(prefers-color-scheme: dark)" />
-    <link href="/vendor/bootstrap/css/modal.css" rel="stylesheet">
+    <link href="/blog/vendor/bootstrap/css/bootstrap.css" rel="stylesheet" media="(prefers-color-scheme: light)" />
+    <link href="/blog/vendor/bootstrap/css/bootstrap-dark.css" rel="stylesheet" media="(prefers-color-scheme: dark)" />
+    <link href="/blog/vendor/bootstrap/css/modal.css" rel="stylesheet">
     <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
-    <link href="/vendor/bootstrap/css/sticky-footer-navbar.css" rel="stylesheet">
-    <link href="/vendor/bootstrap/css/image-crop.css" rel="stylesheet">
+    <link href="/blog/vendor/bootstrap/css/sticky-footer-navbar.css" rel="stylesheet">
+    <link href="/blog/vendor/bootstrap/css/image-crop.css" rel="stylesheet">
     
       <meta name="author" content="Ramon de C Valle">
     
     
       <meta name="description" content="Just my personal website nothing more.">
     
+
+    <!-- RSS Feed -->
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="/blog/dist/jquery.rss.min.js" ></script>
+    <!-- Load RSS -->
+    <script>
+      jQuery(function($) {
+        $("#rss-feeds")
+          .rss("http://mdachyar.blogspot.com/feeds/posts/default", {
+            limit: 3,
+            entryTemplate:'<li><a href="{url}">{title}</a></li>'
+          })
+      })
+    </script>
+
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg sticky-top navbar">
+    <!--<nav class="navbar navbar-expand-lg sticky-top navbar">
   
-    <a href="/" class="navbar-brand">Farid Hasan - Blog</a>
+    <a href="/blog/" class="navbar-brand">Farid Hasan - Blog</a>
   
   <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -47,30 +63,12 @@
       
         
       
-        
-      
-        
-      
     </div>
   </div>
 </nav>
-
+-->
     <div class="container my-3 my-lg-5">
-      <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
+      <div class="container">
   <h1>404</h1>
 
   <p><strong>Page not found :(</strong></p>
@@ -89,18 +87,66 @@
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="/vendor/jquery/jquery.js"></script>
-    <script src="/vendor/bootstrap/js/bootstrap.bundle.js"></script>
-    <script src="/vendor/bootstrap/js/modal.js"></script>
-    <script src="/vendor/bootstrap/js/typingeffect.js"></script>
-    <script src="/vendor/bootstrap/js/autolightdark.js"></script>
+    <script src="/blog/vendor/jquery/jquery.js"></script>
+    <script src="/blog/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="/blog/vendor/bootstrap/js/modal.js"></script>
+    <script src="/blog/vendor/bootstrap/js/typingeffect.js"></script>
+    <script src="/blog/vendor/bootstrap/js/autolightdark.js"></script>
 
 
-    <footer class="footer">
-            <div class="container">
+    <!--  <footer class="footer">
+              <div class="container">
+                <span class="text-muted">Created with <span class="ec-black-heart"></span> by Farid Hasan. Published with <a href="http://pages.github.com">GitHub Pages</a></span>
+              </div>
+      </footer>-->
+
+      <!-- Footer -->
+      <footer class="footer">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
               <span class="text-muted">Created with <span class="ec-black-heart"></span> by Farid Hasan. Published with <a href="http://pages.github.com">GitHub Pages</a></span>
             </div>
-    </footer>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h6><span class='ec-link'></span> Blogs that i follow</h6>
+              <ul>
+                <li>
+                  <a href="#!">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h6><span class='ec-link'></span> M Dachyar Weblog</h6>
+              <div id="rss-feeds"></div>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+      </footer>
+    <!-- Footer -->
   </body>
 
 </html>

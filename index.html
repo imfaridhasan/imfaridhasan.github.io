@@ -23,6 +23,33 @@
   <link href="vendor/bootstrap/css/sticky-footer-navbar.css" rel="stylesheet">
   <link href="vendor/bootstrap/css/image-crop.css" rel="stylesheet">
 
+  <!-- RSS Feed -->
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+  <script src="dist/jquery.rss.min.js"></script>
+  <!-- Load RSS -->
+  <script>
+    jQuery(function($) {
+      $("#rss-feeds")
+        .rss("http://mdachyar.blogspot.com/feeds/posts/default", {
+          limit: 3,
+          entryTemplate:'<li><a href="{url}">{title}</a></li>'
+        })
+    })
+  </script>
+
+  <script>
+  $(document).ready(function() {
+
+      var docHeight = $(window).height();
+      var footerHeight = $('#footer').height();
+      var footerTop = $('#footer').position().top + footerHeight;
+
+      if (footerTop < docHeight)
+          $('#footer').css('margin-top', 10+ (docHeight - footerTop) + 'px');
+  });
+  </script>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166059516-1"></script>
   <script>
@@ -189,6 +216,8 @@
   <script src="vendor/bootstrap/js/typingeffect.js"></script>
   <script src="vendor/bootstrap/js/autolightdark.js"></script>
 
+
+
   <!-- Modal -->
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="YoutubeVideo" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -207,11 +236,59 @@
   </div>
   <!-- Modal -->
 
-  <footer class="footer">
+<!--  <footer class="footer">
           <div class="container">
             <span class="text-muted">Created with <span class="ec-black-heart"></span> by Farid Hasan. Published with <a href="http://pages.github.com">GitHub Pages</a></span>
           </div>
+  </footer>-->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <span class="text-muted">Created with <span class="ec-black-heart"></span> by Farid Hasan. Published with <a href="http://pages.github.com">GitHub Pages</a></span>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h6><span class='ec-link'></span> Blogs that i follow</h6>
+          <ul>
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h6><span class='ec-link'></span> M Dachyar Weblog</h6>
+          <div id="rss-feeds"></div>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
   </footer>
+<!-- Footer -->
 
 </body>
 
