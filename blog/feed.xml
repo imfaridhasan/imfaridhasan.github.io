@@ -1,19 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2021-04-13T20:49:13+07:00</updated><id>/blog/feed.xml</id><title type="html">Farid Hasan - Blog</title><subtitle>Just my personal website nothing more.</subtitle><author><name>Farid Hasan</name></author><entry><title type="html">Journal Review 4 - Rekayasa Ulang Proses Bisnis Penyimpanan dan Distribusi Obat Studi Kasus</title><link href="/blog/2021/04/05/journal-review-4.html" rel="alternate" type="text/html" title="Journal Review 4 - Rekayasa Ulang Proses Bisnis Penyimpanan dan Distribusi Obat Studi Kasus" /><published>2021-04-05T00:00:00+07:00</published><updated>2021-04-05T00:00:00+07:00</updated><id>/blog/2021/04/05/journal-review-4</id><content type="html" xml:base="/blog/2021/04/05/journal-review-4.html">&lt;p&gt;Business Process Reengineering memerlukan perombakan total dari proses bisnis utama untuk mendapatkan keuntungan yang signifikan dalam efisiensi, waktu siklus, dan kualitas. Perusahaan yang menggunakan Rekayasa Ulang Proses Bisnis mulai dengan selembar kertas kosong dan menemukan kembali proses saat ini untuk memberikan nilai lebih kepada pelanggan.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2021-04-13T20:56:20+07:00</updated><id>/blog/feed.xml</id><title type="html">Farid Hasan - Blog</title><subtitle>Just my personal website nothing more.</subtitle><author><name>Farid Hasan</name></author><entry><title type="html">Journal Review 4 - Rekayasa Ulang Proses Bisnis Penyimpanan dan Distribusi Obat Studi Kasus</title><link href="/blog/2021/04/05/journal-review-4.html" rel="alternate" type="text/html" title="Journal Review 4 - Rekayasa Ulang Proses Bisnis Penyimpanan dan Distribusi Obat Studi Kasus" /><published>2021-04-05T00:00:00+07:00</published><updated>2021-04-05T00:00:00+07:00</updated><id>/blog/2021/04/05/journal-review-4</id><content type="html" xml:base="/blog/2021/04/05/journal-review-4.html">&lt;p&gt;Business Process Reengineering memerlukan perombakan total dari proses bisnis utama untuk mendapatkan keuntungan yang signifikan dalam efisiensi, waktu siklus, dan kualitas. Perusahaan yang menggunakan Rekayasa Ulang Proses Bisnis mulai dengan selembar kertas kosong dan menemukan kembali proses saat ini untuk memberikan nilai lebih kepada pelanggan.&lt;/p&gt;
 
 &lt;h3 id=&quot;abstrak&quot;&gt;Abstrak&lt;/h3&gt;
 &lt;p&gt;Pada studi kasus kali ini melaporkan tentang penerapan metode rekayasa ulang proses bisnis (BPR) untuk manajemen dan distribusi obat di provinsi Italia. Tujuan dari studi ini adalah untuk menganalisis proses yang selalu dilaksanakan hingga tahun 2012, mengidentifikasi masalah dan inkonsistensi terkait, dan kemudian mendeskripsikan rekayasa ulang proses ini, menilai dan menekankan perubahan yang terlibat dan menunjukkan peluang lebih lanjut untuk perbaikan. Dua skenario To-Be telah dianalisis:&lt;/p&gt;
+
 &lt;ol&gt;
   &lt;li&gt;pengembangan prosedur pengiriman antar rumah sakit;&lt;/li&gt;
-  &lt;li&gt;mendesain dan menggunakan hanya gudang terpusat untuk penyimpanan dan distribusi obat.&lt;br /&gt;
-Proses dimodelkan menggunakan perangkat lunak AI0 WIN, yang mendukung metode IDEF0. Kontribusi utama dari aplikasi IDEF0 dalam pengelolaan obat adalah untuk memberikan gambaran yang jelas tentang keseluruhan sistem, sistem komunikasi antara pelaku rumah sakit, sumber informasi yang kaya dan dasar terstruktur untuk proses rekayasa ulang.&lt;/li&gt;
+  &lt;li&gt;mendesain dan menggunakan hanya gudang terpusat untuk penyimpanan dan distribusi obat.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;Proses dimodelkan menggunakan perangkat lunak AI0 WIN, yang mendukung metode IDEF0. Kontribusi utama dari aplikasi IDEF0 dalam pengelolaan obat adalah untuk memberikan gambaran yang jelas tentang keseluruhan sistem, sistem komunikasi antara pelaku rumah sakit, sumber informasi yang kaya dan dasar terstruktur untuk proses rekayasa ulang.&lt;/p&gt;
 
 &lt;h3 id=&quot;pendahuluan&quot;&gt;Pendahuluan&lt;/h3&gt;
 &lt;p&gt;Obat-obatan mewakili sebagian besar biaya dalam industri perawatan kesehatan karena biaya yang signifikan dari produk ini serta persyaratan penyimpanan dan pengawasannya yang diatur ketat. Perubahan progresif di pasar, peningkatan globalisasi dan konsekuensi prospek bisnis baru saat ini memaksakan kebutuhan untuk pertimbangan ulang terus menerus mengenai metode manajemen bisnis. Metode untuk menganalisis dan mendesain ulang proses yang khusus dapat diterapkan pada proses pengelolaan obat dengan tujuan untuk mengidentifikasi kekurangan dan meningkatkan efisiensinya.&lt;/p&gt;
 
 &lt;h3 id=&quot;bahan-dan-metode&quot;&gt;Bahan dan Metode&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;3.1. Alat BPR&lt;br /&gt;
+  &lt;li&gt;Alat BPR&lt;br /&gt;
 Perangkat lunak AI0WIN 6.1 yang dikembangkan pada definisi integrasi standar untuk pemodelan fungsi 0 (IDEF0) digunakan untuk memodelkan proses bisnis. Dalam IDEF0, kegiatan diwakili secara grafis dengan kotak yang berisi indikasi nama dan nomornya (Gambar 1).&lt;br /&gt;
 Konsep-konsep tersebut secara grafis mewakili hubungan antarmuka antara aktivitas yang menyusun model. Mereka dapat dibedakan sebagai berikut:&lt;br /&gt;
       Input : informasi atau objek yang dibutuhkan untuk melaksanakan kegiatan.&lt;br /&gt;
@@ -29,7 +31,7 @@ Setelah menyelesaikan analisis aktivitas perusahaan, jaringan aktivitas baru dir
       &lt;li&gt;Untuk belajar dari contoh keunggulan, menyalin solusi yang telah dicoba dan diuji, dan terbukti efektif.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;3.2 Tinjauan Pustaka&lt;br /&gt;
+  &lt;li&gt;Tinjauan Pustaka&lt;br /&gt;
 Tantangan yang banyak dialami dalam mengurangi limbah / meningkatkan efisiensi dalam sistem yang kompleks rantai pasokan farmasi, antara lain :&lt;br /&gt;
 Produk dan peralatan medis yang digunakan prosedur bisa sangat mahal
 Permintaan dalam hal jenis dan jumlah produk yang dibutuhkan untuk prosedur dapat sangat tidak dapat diprediksi karena keragaman karakteristik pasien
