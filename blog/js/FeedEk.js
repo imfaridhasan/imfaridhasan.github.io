@@ -27,8 +27,8 @@
 					return;
 
 				$.each(result.data, function (e, itm) {
-					s += '<li><a href="' + itm.link + '" target="' + def.TitleLinkTarget + '" >' + itm.title + '</a>';
-
+					//s += '<li><a href="' + itm.link + '" target="' + def.TitleLinkTarget + '" >' + itm.title + '</a>';
+					s += '<li><a href="' + def.SourceUrl + '" target="' + def.TitleLinkTarget + '" >' + itm.title + '</a>';
 					if (def.ShowPubDate) {
 						dt = new Date(itm.publishDate);
 						s += '<div class="itemDate">';
