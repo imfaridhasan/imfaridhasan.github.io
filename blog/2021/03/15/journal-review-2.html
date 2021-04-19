@@ -27,20 +27,6 @@
       <meta name="description" content="Just my personal website nothing more.">
     
 
-    <!-- RSS Feed -->
-    <script src="https://code.jquery.com/jquery-1.8.3.js"></script>
-    <script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-    <script src="/blog/dist/jquery.rss.min.js" ></script>
-    <!-- Load RSS -->
-    <script>
-      jQuery(function($) {
-        $("#rss-feeds")
-          .rss("http://mdachyar.blogspot.com/feeds/posts/default", {
-            limit: 3,
-            entryTemplate:'<li><a href="{url}">{title}</a></li>'
-          })
-      })
-    </script>
 
   </head>
   <body>
@@ -170,6 +156,16 @@
     <script src="/blog/vendor/bootstrap/js/typingeffect.js"></script>
     <script src="/blog/vendor/bootstrap/js/autolightdark.js"></script>
 
+    <!-- RSS Feed -->
+    <script type="text/javascript" src="/blog/js/FeedEk.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+          $('#divRss').FeedEk({
+            FeedUrl: 'http://mdachyar.blogspot.com/feeds/posts/default', MaxCount: 3, ShowDesc: false, ShowPubDate: false
+          });
+        });
+    </script>
+
 
     <!--  <footer class="footer">
               <div class="container">
@@ -231,7 +227,7 @@
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
               <h6><span class='ec-link'></span> M Dachyar Weblog</h6>
-              <div id="rss-feeds"></div>
+              <div id="divRss"></div>
               </ul>
             </div>
             <!--Grid column-->
