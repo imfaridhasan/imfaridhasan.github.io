@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2021-05-05T04:42:10+07:00</updated><id>/blog/feed.xml</id><title type="html">Farid Hasan - Blog</title><subtitle>Just my personal website nothing more.</subtitle><author><name>Farid Hasan</name></author><entry><title type="html">Journal Review 4 - Rekayasa Ulang Proses Bisnis Penyimpanan dan Distribusi Obat Studi Kasus</title><link href="/blog/2021/04/05/journal-review-4.html" rel="alternate" type="text/html" title="Journal Review 4 - Rekayasa Ulang Proses Bisnis Penyimpanan dan Distribusi Obat Studi Kasus" /><published>2021-04-05T00:00:00+07:00</published><updated>2021-04-05T00:00:00+07:00</updated><id>/blog/2021/04/05/journal-review-4</id><content type="html" xml:base="/blog/2021/04/05/journal-review-4.html">&lt;p&gt;Business Process Reengineering memerlukan perombakan total dari proses bisnis utama untuk mendapatkan keuntungan yang signifikan dalam efisiensi, waktu siklus, dan kualitas. Perusahaan yang menggunakan Rekayasa Ulang Proses Bisnis mulai dengan selembar kertas kosong dan menemukan kembali proses saat ini untuk memberikan nilai lebih kepada pelanggan.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2021-05-05T04:52:09+07:00</updated><id>/blog/feed.xml</id><title type="html">Farid Hasan - Blog</title><subtitle>Just my personal website nothing more.</subtitle><author><name>Farid Hasan</name></author><entry><title type="html">Journal Review 4 - Rekayasa Ulang Proses Bisnis Penyimpanan dan Distribusi Obat Studi Kasus</title><link href="/blog/2021/04/05/journal-review-4.html" rel="alternate" type="text/html" title="Journal Review 4 - Rekayasa Ulang Proses Bisnis Penyimpanan dan Distribusi Obat Studi Kasus" /><published>2021-04-05T00:00:00+07:00</published><updated>2021-04-05T00:00:00+07:00</updated><id>/blog/2021/04/05/journal-review-4</id><content type="html" xml:base="/blog/2021/04/05/journal-review-4.html">&lt;p&gt;Business Process Reengineering memerlukan perombakan total dari proses bisnis utama untuk mendapatkan keuntungan yang signifikan dalam efisiensi, waktu siklus, dan kualitas. Perusahaan yang menggunakan Rekayasa Ulang Proses Bisnis mulai dengan selembar kertas kosong dan menemukan kembali proses saat ini untuk memberikan nilai lebih kepada pelanggan.&lt;/p&gt;
 
-&lt;h3 id=&quot;abstrak&quot;&gt;Abstrak&lt;/h3&gt;
+&lt;h4 id=&quot;abstrak&quot;&gt;Abstrak&lt;/h4&gt;
 &lt;p&gt;Pada studi kasus kali ini melaporkan tentang penerapan metode rekayasa ulang proses bisnis (BPR) untuk manajemen dan distribusi obat di provinsi Italia. Tujuan dari studi ini adalah untuk menganalisis proses yang selalu dilaksanakan hingga tahun 2012, mengidentifikasi masalah dan inkonsistensi terkait, dan kemudian mendeskripsikan rekayasa ulang proses ini, menilai dan menekankan perubahan yang terlibat dan menunjukkan peluang lebih lanjut untuk perbaikan. Dua skenario To-Be telah dianalisis:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -10,10 +10,10 @@
 
 &lt;p&gt;Proses dimodelkan menggunakan perangkat lunak AI0 WIN, yang mendukung metode IDEF0. Kontribusi utama dari aplikasi IDEF0 dalam pengelolaan obat adalah untuk memberikan gambaran yang jelas tentang keseluruhan sistem, sistem komunikasi antara pelaku rumah sakit, sumber informasi yang kaya dan dasar terstruktur untuk proses rekayasa ulang.&lt;/p&gt;
 
-&lt;h3 id=&quot;pendahuluan&quot;&gt;Pendahuluan&lt;/h3&gt;
+&lt;h4 id=&quot;pendahuluan&quot;&gt;Pendahuluan&lt;/h4&gt;
 &lt;p&gt;Obat-obatan mewakili sebagian besar biaya dalam industri perawatan kesehatan karena biaya yang signifikan dari produk ini serta persyaratan penyimpanan dan pengawasannya yang diatur ketat. Perubahan progresif di pasar, peningkatan globalisasi dan konsekuensi prospek bisnis baru saat ini memaksakan kebutuhan untuk pertimbangan ulang terus menerus mengenai metode manajemen bisnis. Metode untuk menganalisis dan mendesain ulang proses yang khusus dapat diterapkan pada proses pengelolaan obat dengan tujuan untuk mengidentifikasi kekurangan dan meningkatkan efisiensinya.&lt;/p&gt;
 
-&lt;h3 id=&quot;bahan-dan-metode&quot;&gt;Bahan dan Metode&lt;/h3&gt;
+&lt;h4 id=&quot;bahan-dan-metode&quot;&gt;Bahan dan Metode&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Alat BPR&lt;br /&gt;
 Perangkat lunak AI0WIN 6.1 yang dikembangkan pada definisi integrasi standar untuk pemodelan fungsi 0 (IDEF0) digunakan untuk memodelkan proses bisnis. Dalam IDEF0, kegiatan diwakili secara grafis dengan kotak yang berisi indikasi nama dan nomornya (Gambar 1).&lt;br /&gt;
@@ -40,24 +40,24 @@ Kadaluarsa produk dan masalah pelacakan yang disebabkan oleh kurangnya akuntabil
 Terlepas dari pentingnya pengelolaan rantai pasokan rumah sakit, terdapat variabilitas yang sangat besar dalam desain dan pengelolaan rantai pasokan / distribusi obat. Ada juga penelitian akademis terbatas yang membantu merancang implementasi program SCM yang berhasil atau untuk merekomendasikan praktik terbaik.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;kesimpulan&quot;&gt;Kesimpulan&lt;/h3&gt;
+&lt;h4 id=&quot;kesimpulan&quot;&gt;Kesimpulan&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Kontrol kinerja dari skenario baru yang diusulkan sangat penting untuk implementasi yang efektif. Banyak keuntungan dari skenario baru pada dasarnya karena pengurangan jam kerja dan pengoptimalan biaya inventaris.&lt;/li&gt;
   &lt;li&gt;Menerapkan proses transhipment antar rumah sakit, keuntungan ini dapat diperoleh tanpa gudang fisik, tetapi hanya menggabungkan semua inventaris dan menyiapkan sistem informasi yang memungkinkan akses ke catatan inventaris terkini dari setiap gudang.&lt;/li&gt;
   &lt;li&gt;Sentralisasi informasi memungkinkan rumah sakit untuk mengurangi tingkat persediaan yang diperlukan sambil menyediakan tingkat ketersediaan produk yang tinggi dengan menggabungkan persediaan secara virtual.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;pranala&quot;&gt;Pranala&lt;/h3&gt;
+&lt;h4 id=&quot;pranala&quot;&gt;Pranala&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1504/IJPM.2015.066287&quot;&gt;Jurnal&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/1_zrR8A53HdHDPKZ7rEW9rM700puwpU1I/view?usp=sharing&quot;&gt;Resume PPT&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Farid Hasan</name></author><summary type="html">Business Process Reengineering memerlukan perombakan total dari proses bisnis utama untuk mendapatkan keuntungan yang signifikan dalam efisiensi, waktu siklus, dan kualitas. Perusahaan yang menggunakan Rekayasa Ulang Proses Bisnis mulai dengan selembar kertas kosong dan menemukan kembali proses saat ini untuk memberikan nilai lebih kepada pelanggan.</summary></entry><entry><title type="html">Journal Review 3 - Alat Monitoring Kesehatan Yang Dapat Dipakai dan Fleksibel Untuk Aplikasi Perawatan Kesehatan Yang Terhubung Dengan IoT</title><link href="/blog/2021/03/23/journal-review-3.html" rel="alternate" type="text/html" title="Journal Review 3 - Alat Monitoring Kesehatan Yang Dapat Dipakai dan Fleksibel Untuk Aplikasi Perawatan Kesehatan Yang Terhubung Dengan IoT" /><published>2021-03-23T00:00:00+07:00</published><updated>2021-03-23T00:00:00+07:00</updated><id>/blog/2021/03/23/journal-review-3</id><content type="html" xml:base="/blog/2021/03/23/journal-review-3.html">&lt;p&gt;Internet of Things (IoT) adalah jaringan objek fisik (disebut sebagai “benda” atau “objek”) yang disematkan dengan sensor, perangkat lunak, dan teknologi lain untuk tujuan komunikasi dan berbagi data dengan perangkat dan sistem lain melalui internet.&lt;/p&gt;
 
-&lt;h3 id=&quot;pendahuluan&quot;&gt;Pendahuluan&lt;/h3&gt;
+&lt;h4 id=&quot;pendahuluan&quot;&gt;Pendahuluan&lt;/h4&gt;
 &lt;p&gt;Internet of Things (IoT) adalah paradigma komunikasi baru yang dapat menghubungkan elemen dari berbagai bidang melalui Internet.
 Salah satu aplikasi IoT yang paling menarik adalah ranah kesehatan, yang memungkinkan menghilangkan batasan-batasan yang ada sebelumnya.&lt;/p&gt;
 
-&lt;h3 id=&quot;concept-idea&quot;&gt;Concept Idea&lt;/h3&gt;
+&lt;h4 id=&quot;concept-idea&quot;&gt;Concept Idea&lt;/h4&gt;
 &lt;ol&gt;
   &lt;li&gt;Sistem IoT
 Sistem monitoring kesehatan yang terhubung dengan IoT biasanya terdiri dari tiga bagian utama yaitu :
@@ -80,7 +80,7 @@ Berikut merupakan gambaran umum yang menghubungkan koneksi antara sensor dengan 
 Gambar&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;hardware&quot;&gt;Hardware&lt;/h3&gt;
+&lt;h4 id=&quot;hardware&quot;&gt;Hardware&lt;/h4&gt;
 &lt;p&gt;Dari segi perangkat keras alat yang dibuat oleh penulis memiliki kriteria yang telah disebutkan pada Concept Idea, adapun pembagian alat sebagai berikut :&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;Papan Tengah (center board)&lt;br /&gt;
@@ -95,50 +95,50 @@ Selain sensor EKG, sensor PPG merupakan perangkat yang dapat mendeteksi perubaha
 Dalam hal sensor yang dapat dipakai, konsumsi daya rendah adalah persyaratan penting untuk operasi berkelanjutan jangka panjang. Daya tertinggi dari alat yang diusulkan adalah 44,57 mW (arus rata-rata adalah 13,51 mA) ketika mengumpulkan dan mengirimkan semua sinyal sensor terus menerus untuk estimasi tekanan darah yang kemudian dikirimkan ke gateway. Dalam mode ini, patch sensor dapat beroperasi hingga 8,88 jam dengan baterai 120 mAh.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;software&quot;&gt;Software&lt;/h3&gt;
+&lt;h4 id=&quot;software&quot;&gt;Software&lt;/h4&gt;
 &lt;p&gt;Setelah semua perangkat keras sudah ditentukan kemudian membuat antarmuka berbasis web dan mobile application untuk menampilkan data secara realtime yang dibuat menggunakan bahasa pemograman yaitu Python.&lt;/p&gt;
 
 &lt;p&gt;Selain menampilkan data perlu juga dilakukan kalibrasi pada sensor sehingga data yang dihasikan akurat.&lt;/p&gt;
 
 &lt;p&gt;Untuk memvalidasi kinerja dan kelayakan sistem perawatan kesehatan yang terhubung dengan IoT, tiga alat yang dapat dikenakan diuji pada subjek yang berbeda. Percobaan dilakukan di ruang lab (14 m × 14 m) dengan suhu terkontrol 25 ◦C. Gateway IoT yang terhubung dengan Wi-Fi ditempatkan di tengah ruangan untuk menerima data. Alat melekat pada dada tiga subjek, yang duduk diberbagai sudut ruangan.&lt;/p&gt;
 
-&lt;h3 id=&quot;kesimpulan&quot;&gt;Kesimpulan&lt;/h3&gt;
+&lt;h4 id=&quot;kesimpulan&quot;&gt;Kesimpulan&lt;/h4&gt;
 &lt;p&gt;Dari rancangan alat yang sudah dibuat pada jurnal, alat ini memiliki fungsi yang sangat bermanfaat bila diterapkan secara komersial, seperti halnya dari segi fungsi alat ini dapat terhubung ke internet secara langsung hal ini dapat mempermudah dan mengurangi sumber daya dari tenaga kesehatan serta dapat mendiagnosa awal munculnya penyakit yang berhubungan dengan denyut jantung misalnya.
 Namun pada aplikasinya secara komersil hal ini menjadi tantangan tersendiri seperti contohnya harus lulus ijin edar/pemakaian untuk digunakan sebagai alat instrumentasi kesehatan.&lt;/p&gt;
 
-&lt;h3 id=&quot;pranala&quot;&gt;Pranala&lt;/h3&gt;
+&lt;h4 id=&quot;pranala&quot;&gt;Pranala&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://dx.doi.org/10.1109/JIOT.2020.2977164&quot;&gt;Jurnal&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/1nJBNQfRG96mDkCbcq8n2lYST1ZQ4JmnK/view?usp=sharing&quot;&gt;Resume PPT&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Farid Hasan</name></author><summary type="html">Internet of Things (IoT) adalah jaringan objek fisik (disebut sebagai “benda” atau “objek”) yang disematkan dengan sensor, perangkat lunak, dan teknologi lain untuk tujuan komunikasi dan berbagi data dengan perangkat dan sistem lain melalui internet.</summary></entry><entry><title type="html">Journal Review 2 - Peran Pemberdayaan Karyawan Sebagai Perantara Variabel Antara Manajemen Pengetahuan dan Sistem Informasi Pada Kinerja Karyawan</title><link href="/blog/2021/03/15/journal-review-2.html" rel="alternate" type="text/html" title="Journal Review 2 - Peran Pemberdayaan Karyawan Sebagai Perantara Variabel Antara Manajemen Pengetahuan dan Sistem Informasi Pada Kinerja Karyawan" /><published>2021-03-15T00:00:00+07:00</published><updated>2021-03-15T00:00:00+07:00</updated><id>/blog/2021/03/15/journal-review-2</id><content type="html" xml:base="/blog/2021/03/15/journal-review-2.html">&lt;p&gt;Knowledge management (KM) atau manajemen pengetahuan adalah istilah yang mengacu pada manajemen informasi. Manajemen informasi, atau KM, dapat digambarkan sebagai proses sistematis untuk mengidentifikasi, mendokumentasikan, dan menyebarkan semua jejak pengetahuan yang berlaku untuk setiap anggota organisasi dengan tujuan meningkatkan daya saing organisasi. Dalam suatu perusahaan, manajemen pengetahuan adalah struktur yang saling berhubungan dengan sistem lain. Sistem manajemen pengetahuan yang baik harus menyediakan mekanisme bagi pengguna untuk memberikan umpan balik tentang reputasi pengetahuan.&lt;/p&gt;
 
-&lt;h3 id=&quot;pendahuluan&quot;&gt;Pendahuluan&lt;/h3&gt;
+&lt;h4 id=&quot;pendahuluan&quot;&gt;Pendahuluan&lt;/h4&gt;
 &lt;p&gt;Proses penerapan pendekatan sistematis untuk menangkap, struktur, manajemen, dan distribusi informasi dalam suatu perusahaan untuk bekerja lebih cepat, menggunakan kembali praktik terbaik, dan mengurangi pengerjaan ulang yang mahal dari proyek ke proyek pada awalnya dikenal sebagai manajemen pengetahuan (KM).&lt;/p&gt;
 
-&lt;h3 id=&quot;tujuan&quot;&gt;Tujuan&lt;/h3&gt;
+&lt;h4 id=&quot;tujuan&quot;&gt;Tujuan&lt;/h4&gt;
 &lt;p&gt;Tujuan dari jurnal ini adalah untuk mengetahui keterkaitan antara manajemen pengetahuan (Knowledge Management) (KM), sistem informasi (Information System) (SI) dan pemberdayaan karyawan (Employees Empowerment) (EE) pada kinerja karyawan (Employees Performance) (EP).&lt;/p&gt;
 
-&lt;h3 id=&quot;metodologi&quot;&gt;Metodologi&lt;/h3&gt;
+&lt;h4 id=&quot;metodologi&quot;&gt;Metodologi&lt;/h4&gt;
 &lt;p&gt;Pada kali ini, metodologi atau pendekatan yang dilakukan merupakan model struktural yang dikembangkan untuk menggambarkan interaksi antara konstruksi ini untuk melihat efek korelasi antara EE pada hubungan antara KM, SI dan EP. Sebuah survei berbasis kuesioner dirancang untuk menguji model tersebut berdasarkan dataset dari 287 karyawan industri farmasi yang berada di Yordania. Model dan hipotesis yang diajukan diuji dengan menggunakan analisis pemodelan persamaan struktural.&lt;/p&gt;
 
-&lt;h3 id=&quot;hasil&quot;&gt;Hasil&lt;/h3&gt;
+&lt;h4 id=&quot;hasil&quot;&gt;Hasil&lt;/h4&gt;
 &lt;p&gt;Hasil penelitian menunjukkan bahwa KM dan SI berpengaruh positif dan signifikan terhadap EE, di mana EP juga berdampak signifikan. Namun, baik KM maupun SI tidak terbukti berhubungan positif dengan EP. Selain itu, EE secara positif dan signifikan secara aktif memediasi hubungan antara KM dan EP, selain hubungan antara SI dan EP. Ini adalah salah satu dari sedikit studi yang menyelidiki keterkaitan antara KM, SI dan EE pada EP, dan yang pertama menguji model pada perusahaan di industri farmasi di Yordania.&lt;/p&gt;
 
-&lt;h3 id=&quot;pranala&quot;&gt;Pranala&lt;/h3&gt;
+&lt;h4 id=&quot;pranala&quot;&gt;Pranala&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1108/VJIKMS-08-2017-0050&quot;&gt;Jurnal&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/1mFaH67s9PDrF48LRwpQcaa31s3OEyLGz/view?usp=sharing&quot;&gt;Resume PPT&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Farid Hasan</name></author><summary type="html">Knowledge management (KM) atau manajemen pengetahuan adalah istilah yang mengacu pada manajemen informasi. Manajemen informasi, atau KM, dapat digambarkan sebagai proses sistematis untuk mengidentifikasi, mendokumentasikan, dan menyebarkan semua jejak pengetahuan yang berlaku untuk setiap anggota organisasi dengan tujuan meningkatkan daya saing organisasi. Dalam suatu perusahaan, manajemen pengetahuan adalah struktur yang saling berhubungan dengan sistem lain. Sistem manajemen pengetahuan yang baik harus menyediakan mekanisme bagi pengguna untuk memberikan umpan balik tentang reputasi pengetahuan.</summary></entry><entry><title type="html">Journal Review 1 - Pengaruh Keunggulan Kompetitif dan Keunggulan SDM Terhadap Strategi Kompetitif Industri</title><link href="/blog/2021/03/08/journal-review-1.html" rel="alternate" type="text/html" title="Journal Review 1 - Pengaruh Keunggulan Kompetitif dan Keunggulan SDM Terhadap Strategi Kompetitif Industri" /><published>2021-03-08T00:00:00+07:00</published><updated>2021-03-08T00:00:00+07:00</updated><id>/blog/2021/03/08/journal-review-1</id><content type="html" xml:base="/blog/2021/03/08/journal-review-1.html">&lt;p&gt;Faktor-faktor yang memungkinkan suatu bisnis memproduksi produk atau layanan dengan lebih baik atau lebih murah daripada para pesaingnya disebut sebagai competitive advantage. Faktor-faktor ini memungkinkan organisasi yang menguntungkan untuk menghasilkan laba yang lebih tinggi atau margin yang lebih tinggi daripada para pesaingnya.&lt;/p&gt;
 
-&lt;h3 id=&quot;pendahuluan&quot;&gt;Pendahuluan&lt;/h3&gt;
+&lt;h4 id=&quot;pendahuluan&quot;&gt;Pendahuluan&lt;/h4&gt;
 &lt;p&gt;Industri Kecil Menengah (IKM) memiliki peran strategis dalam perekonomian Indonesia, dengan perolehan devisa sebesar 61,9 persen yang digunakan untuk membentuk Produk Domestik Bruto nasional, dan secara nasional mampu menyerap 97 persen tenaga kerja. Laporan Daya Saing Global juga mencatat bahwa IKM berfungsi sebagai unit bisnis yang mempengaruhi daya saing setiap negara. Mengingat peran strategis tersebut, maka pemilihan strategi kompetitif IKM tersebut mutlak diperlukan. Melalui tinjauan pustaka yang mendalam, penelitian ini bertujuan untuk mengeksplorasi variabel apa saja yang mempengaruhi strategi kompetitif industri, khususnya IKM. Dengan menggunakan Systematic Literature Review (SLR) dengan total 31 literatur utama (artikel, makalah dan buku), penelitian ini menemukan dua faktor dominan yang mempengaruhi strategi kompetitif industri: Keunggulan kompetitif dan keunggulan SDM yang selanjutnya dikembangkan menjadi enam variabel bebas (variabel konstruk) yaitu biaya, pengiriman, kualitas produk, variasi produk, pengetahuan dan inovasi, dengan total 44 indikator.&lt;/p&gt;
 
-&lt;h3 id=&quot;tinjauan-pustaka&quot;&gt;Tinjauan Pustaka&lt;/h3&gt;
+&lt;h4 id=&quot;tinjauan-pustaka&quot;&gt;Tinjauan Pustaka&lt;/h4&gt;
 &lt;p&gt;Berdasarkan tinjauan pustaka, penelitian ini menemukan bahwa strategi kompetitif industri dipengaruhi oleh banyak variabel dan kondisi yang mendasarinya. Dalam penelitian ini, strategi kompetitif industri yang dinyatakan sebagai variabel “strategi industri” (variabel terikat Y) dipengaruhi oleh dua faktor dominan X, yaitu keunggulan kompetitif dan keunggulan SDM.  Kedua faktor dominan tersebut dikembangkan menjadi enam variabel konstruk (variabel bebas X) yang meliputi variable biaya (X1), pengiriman (X2), kualitas produk (X3), keragaman produk (X4), pengetahuan (X5) dan inovasi (X6). Dengan memperdalam pembahasan literatur, keenam variabel konstruk tersebut dikembangkan menjadi 44 variabel manifes (indikator) dan menghasilkan model strategi kompetitif industri yang menjadi fokus penelitian ini.&lt;/p&gt;
 
 &lt;p&gt;Model penelitian ini menggunakan model konseptual yang secara umum dapat diterapkan pada industri di banyak daerah. Ini menggambarkan hubungan dan interaksi antar variabel. Unit analisis penelitian ini adalah IKM di Provinsi Gorontalo yang telah berjalan minimal tiga tahun dan menghasilkan produk (bukan jasa). Pemilihan lokasi penelitian ini didasarkan pada pertimbangan peran strategis IKM dalam pembangunan Provinsi Gorontalo. Sebagai provinsi yang baru berdiri, Gorontalo belum memiliki cetak biru pengembangan industrinya. Oleh karena itu, studi ini diharapkan dapat memberikan rekomendasi kepada para pembuat kebijakan di Provinsi Gorontalo, dan dapat dijadikan salah satu grand strategy pemberdayaan industri lokal. Hasil studi ini juga dapat digunakan sebagai model kebijakan IKM untuk daerah lain di Indonesia karena pada dasarnya IKM di Gorontalo memiliki karakteristik yang mirip dengan IKM di daerah lain di Indonesia.&lt;/p&gt;
 
-&lt;h3 id=&quot;kesimpulan&quot;&gt;Kesimpulan&lt;/h3&gt;
+&lt;h4 id=&quot;kesimpulan&quot;&gt;Kesimpulan&lt;/h4&gt;
 &lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;Dalam penelitian ini, strategi bersaing industri yang dinyatakan sebagai variabel “strategi industri” (variable terikat Y) dipengaruhi oleh dua faktor dominan X, yaitu keunggulan bersaing dan keunggulan manusia. Kedua factor dominan tersebut dikembangkan menjadi enam variabel konstruk (variabel bebas X), meliputi biaya (X1), pengiriman (X2), kualitas produk (X3), keragaman produk (X4), pengetahuan (X5) dan inovasi (X6). Dengan memperdalam pembahasan literatur, keenam variabel konstruk tersebut dikembangkan menjadi 44 variable manifes (indikator) dan menghasilkan model strategi persaingan industri yang menjadi fokus penelitian ini.&lt;/p&gt;
@@ -154,7 +154,7 @@ Namun pada aplikasinya secara komersil hal ini menjadi tantangan tersendiri sepe
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;pranala&quot;&gt;Pranala&lt;/h3&gt;
+&lt;h4 id=&quot;pranala&quot;&gt;Pranala&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://journal.ugm.ac.id/jieb/article/view/23179&quot;&gt;Jurnal&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/10TmsrBCM-9L8eUsg9gXhWh1BLaF18Rv7/view?usp=sharing&quot;&gt;Resume PPT&lt;/a&gt;&lt;/li&gt;
